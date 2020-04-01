@@ -12,8 +12,12 @@ const Home: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent className="ion-padding">
-        the world is ...
+        the world is oyster
         <IonHeader collapse="condense">
+
+
+
+
           <IonToolbar>
             <IonTitle size="large">Blank</IonTitle>
           </IonToolbar>
