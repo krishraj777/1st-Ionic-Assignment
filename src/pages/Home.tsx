@@ -1,3 +1,4 @@
+import { add } from ‘ionicons/icons’;
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import React from 'react';
 import ExploreContainer from '../components/ExploreContainer';
@@ -14,11 +15,12 @@ const Home: React.FC = () => {
       <IonContent className="ion-padding">
         the world is oyster
         <IonHeader collapse="condense">
-
-
-
-
-          <IonToolbar>
+        <IonFab vertical="bottom" horizontal="end" slot="fixed">
+    <IonFabButton>
+      <IonIcon icon={add} />
+    </IonFabButton>
+  </IonFab>
+           <IonToolbar>
             <IonTitle size="large">Blank</IonTitle>
           </IonToolbar>
         </IonHeader>
